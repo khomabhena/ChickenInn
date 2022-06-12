@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <View
+        android:id="@+id/viewTop"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="1dp"
+        android:layout_height="64dp" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardMeal"
+        app:cardCornerRadius="4dp"
+        app:layout_constraintTop_toBottomOf="@id/viewTop"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="220dp"
+        android:layout_height="280dp">
+
+        <ImageView
+            android:id="@+id/ivImage"
+            android:src="@drawable/meal_rotisserie_chicken"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.v7.widget.CardView>
+
+    <ImageView
+        android:id="@+id/ivRemove"
+        android:visibility="invisible"
+        android:src="@drawable/ic_remove"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/cardMeal"
+        app:layout_constraintLeft_toLeftOf="@id/cardMeal"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/tvNumber"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:textColor="#000"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintTop_toTopOf="@id/ivRemove"
+        app:layout_constraintRight_toRightOf="@id/cardMeal"
+        app:layout_constraintBottom_toBottomOf="@id/ivRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:id="@+id/viewBottom"
+        app:layout_constraintTop_toBottomOf="@id/ivRemove"
+        android:layout_width="1dp"
+        android:layout_height="55dp" />
+
+</android.support.constraint.ConstraintLayout>

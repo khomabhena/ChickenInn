@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "885190981029",
+    "firebase_url": "https://chicken-inn.firebaseio.com",
+    "project_id": "chicken-inn",
+    "storage_bucket": "chicken-inn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885190981029:android:e325ac6c4b41b7e3",
+        "android_client_info": {
+          "package_name": "com.kmab.chickeninn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885190981029-68p3bl8a3ncspoe5iag0flsqp4dcppnc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNbGfvUogLvIRPLw7kyU3hSzrxMIWf8xE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
